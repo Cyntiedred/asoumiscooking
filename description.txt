@@ -1,0 +1,45 @@
+Hey Everyone! Welcome to the description of the #asoumiscooking cookbook!
+
+The aim of this cuteness is to practise my Python skills and create some useful but fun programme.
+
+Since I love cooking (I mean, really love cooking) and try new tastes, I need a programme where I can collect my recipes, ideas,
+fridge capacity and so on. Nothing hard diet, just nice dishes!
+
+To solve this programme I gonna write a programme, which:
+
+- Collects the ingredients that I have in my kitchen, separate by food types and save it to a .csv file
+- Allows me to add new recipes, tagged with ingredients and then save it to a .txt file
+- Sort recipes in many ways:
+ - Cooking time
+ - Recipe orientation (Italian, Asian, Hungarian, ect.)
+ - Used ingredients (meat type, veggies, spices)
+
+
+The structure of the programme:
+
+- Main menu:
+    - Fridge:
+        - What is in my fridge?
+        - Selected by:
+            - Name
+            - Type 
+            - Amount
+        - Add ingredients
+        - Remove ingredients
+        - Modify amount of ingredients
+        /Data structure of an ingredient: ID, Name, Type, Amount, calorie/100 grams
+    - Cookbook:
+        - Recipes
+            - Soup
+            - Main dishes
+            - Desserts
+            - Select by:
+                - Orientation (Chinese, Japan, Italian, Hungarian, etc.)
+                - Meaty, Vegetarian or Vegan 
+                - Easy, Medium, or hard
+                - Ingredients
+        /Data structure of a recipe: ID, Name, Category, Orientation, Type, Difficulty, Ingredients
+        - Add new recipe
+    - Calorie calculator:
+      - Calories of a recipe ( sum of Ingredient amounts / 100 grams)
+      - Calories of an ingredient
